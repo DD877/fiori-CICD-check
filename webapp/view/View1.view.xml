@@ -1,7 +1,7 @@
 <mvc:View controllerName="zcicdfiori.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <content>
-            <Text id="txt" text="v2 text" />
+            <Text id="txt" text="testing CICD" />
             <Button id="btn" text="v2 BUTTON" />
         </content>
     </Page>
