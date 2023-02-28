@@ -77,14 +77,14 @@ resources:
     service-name: zcicdfiori-destination-service
     service-plan: lite
 - name: zcicdfiori-uaa
-  type: org.cloudfoundry.managed-service
+  type: org.cloudfoundry.existing-service
   parameters:
     path: ./xs-security.json
     service: xsuaa
     service-name: zcicdfiori-xsuaa-srv
     service-plan: application
 - name: zcicdfiori-repo-host
-  type: org.cloudfoundry.managed-service
+  type: org.cloudfoundry.existing-service
   parameters:
     service: html5-apps-repo
     service-name: zcicdfiori-html5-srv
