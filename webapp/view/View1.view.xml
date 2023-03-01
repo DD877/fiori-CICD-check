@@ -2,7 +2,7 @@
     <Page id="page" title="{i18n>title}">
         <content>
             <VBox>
-                <Text id="txt" text="testing CICD testing with COE Team" />
+                <Text id="txt" text="testing CICD testing with COE Team sap" />
                 <Button id="btn" text="V3" />
             </VBox>
         </content>
