@@ -1,9 +1,12 @@
 <mvc:View controllerName="zcicdfiori.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <content>
-            <VBox>
+            <VBox id="_IDGenVBox1">
                 <Text id="txt" text="testing CICD testing with COE Team sap" />
                 <Button id="btn" text="V3" />
+            </VBox>
+            <VBox id="_IDGenVBox2">
+                <Text id="txt1" text="Application -v 0.0.5" />
             </VBox>
         </content>
     </Page>
